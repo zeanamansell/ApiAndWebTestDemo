@@ -94,14 +94,14 @@ formatter.match({
   "location": "MyApiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 314028750,
+  "duration": 305175799,
   "status": "passed"
 });
 formatter.match({
   "location": "MyApiStepdefs.iSendAGETRequest()"
 });
 formatter.result({
-  "duration": 5277705660,
+  "duration": 2884228067,
   "status": "passed"
 });
 formatter.match({
@@ -114,7 +114,7 @@ formatter.match({
   "location": "MyApiStepdefs.iCanValidateThatTheNameIs(String)"
 });
 formatter.result({
-  "duration": 630257997,
+  "duration": 484598604,
   "status": "passed"
 });
 formatter.scenario({
@@ -150,21 +150,21 @@ formatter.match({
   "location": "MyApiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 32656,
+  "duration": 38972,
   "status": "passed"
 });
 formatter.match({
   "location": "MyApiStepdefs.iSendAGETRequest()"
 });
 formatter.result({
-  "duration": 220562579,
+  "duration": 223510841,
   "status": "passed"
 });
 formatter.match({
   "location": "MyApiStepdefs.iCanValidateThatCanRelistIsTrue()"
 });
 formatter.result({
-  "duration": 33948522,
+  "duration": 29334303,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -258,14 +258,14 @@ formatter.match({
   "location": "MyApiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 38980,
+  "duration": 45793,
   "status": "passed"
 });
 formatter.match({
   "location": "MyApiStepdefs.iSendAGETRequest()"
 });
 formatter.result({
-  "duration": 220557524,
+  "duration": 201026688,
   "status": "passed"
 });
 formatter.match({
@@ -282,22 +282,22 @@ formatter.match({
   "location": "MyApiStepdefs.iCanValidateThatThePromotionsElementWithNameHasADescriptionThatContainsTheText(String,String)"
 });
 formatter.result({
-  "duration": 72442443,
+  "duration": 49294980,
   "status": "passed"
 });
 formatter.uri("CucumberUiTest.feature");
 formatter.feature({
   "line": 1,
   "name": "Searching for carbon credits in sandbox ui",
-  "description": "\nAcceptance Criteria:\n1. There is one search result when \"Carbon credits\" is searched for\n2. The location for the top search result is Auckland\n3. The title on the auction page of the first search result is \"Carbon Credit - zero flatulence\"",
+  "description": "\nAcceptance Criteria:\n1. There is 113 search result when \"Wine\" is searched for\n2. There are 6 listings in the location Canterbury\n3. The title on the auction page of the first search result in canterbury is \"Devil\u0027s Corkscrew\"",
   "id": "searching-for-carbon-credits-in-sandbox-ui",
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
   "line": 9,
-  "name": "Verify that there is 1 search result when searching for \"Carbon credits\"",
+  "name": "Verify that there is 114 search result when searching for \"Wine\"",
   "description": "",
-  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-there-is-1-search-result-when-searching-for-\"carbon-credits\"",
+  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-there-is-114-search-result-when-searching-for-\"wine\"",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
@@ -326,7 +326,7 @@ formatter.examples({
   "line": 14,
   "name": "",
   "description": "",
-  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-there-is-1-search-result-when-searching-for-\"carbon-credits\";",
+  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-there-is-114-search-result-when-searching-for-\"wine\";",
   "rows": [
     {
       "cells": [
@@ -334,24 +334,24 @@ formatter.examples({
         "numSearchResults"
       ],
       "line": 16,
-      "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-there-is-1-search-result-when-searching-for-\"carbon-credits\";;1"
+      "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-there-is-114-search-result-when-searching-for-\"wine\";;1"
     },
     {
       "cells": [
-        "Carbon credits",
-        "1"
+        "Wine",
+        "114"
       ],
       "line": 17,
-      "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-there-is-1-search-result-when-searching-for-\"carbon-credits\";;2"
+      "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-there-is-114-search-result-when-searching-for-\"wine\";;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
   "line": 17,
-  "name": "Verify that there is 1 search result when searching for \"Carbon credits\"",
+  "name": "Verify that there is 114 search result when searching for \"Wine\"",
   "description": "",
-  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-there-is-1-search-result-when-searching-for-\"carbon-credits\";;2",
+  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-there-is-114-search-result-when-searching-for-\"wine\";;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -368,7 +368,7 @@ formatter.step({
 });
 formatter.step({
   "line": 11,
-  "name": "I search for \"Carbon credits\"",
+  "name": "I search for \"Wine\"",
   "matchedColumns": [
     0
   ],
@@ -376,7 +376,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "There is \"1\" search results",
+  "name": "There is \"114\" search results",
   "matchedColumns": [
     1
   ],
@@ -386,40 +386,40 @@ formatter.match({
   "location": "MyUiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 8125307866,
+  "duration": 6791770519,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Carbon credits",
+      "val": "Wine",
       "offset": 14
     }
   ],
   "location": "MyUiStepdefs.iSearchFor(String)"
 });
 formatter.result({
-  "duration": 2792990266,
+  "duration": 2889512280,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "1",
+      "val": "114",
       "offset": 10
     }
   ],
   "location": "MyUiStepdefs.thereIsSearchResults(String)"
 });
 formatter.result({
-  "duration": 34930542,
+  "duration": 30470915,
   "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 20,
-  "name": "Verify that the top search result location is Auckland",
+  "name": "There are 6 listings in the location Canterbury",
   "description": "",
-  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-top-search-result-location-is-auckland",
+  "id": "searching-for-carbon-credits-in-sandbox-ui;there-are-6-listings-in-the-location-canterbury",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
@@ -441,44 +441,46 @@ formatter.step({
 });
 formatter.step({
   "line": 23,
-  "name": "I view the search results as a list",
+  "name": "I choose the location \"\u003clocation\u003e\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 24,
-  "name": "The location of the top search result is \"\u003clocation\u003e\"",
+  "name": "There is \"\u003cnumSearchResults\u003e\" search results",
   "keyword": "Then "
 });
 formatter.examples({
   "line": 26,
   "name": "",
   "description": "",
-  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-top-search-result-location-is-auckland;",
+  "id": "searching-for-carbon-credits-in-sandbox-ui;there-are-6-listings-in-the-location-canterbury;",
   "rows": [
     {
       "cells": [
         "searchText",
-        "location"
+        "location",
+        "numSearchResults"
       ],
       "line": 28,
-      "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-top-search-result-location-is-auckland;;1"
+      "id": "searching-for-carbon-credits-in-sandbox-ui;there-are-6-listings-in-the-location-canterbury;;1"
     },
     {
       "cells": [
-        "Carbon credits",
-        "Auckland"
+        "Wine",
+        "Canterbury",
+        "6"
       ],
       "line": 29,
-      "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-top-search-result-location-is-auckland;;2"
+      "id": "searching-for-carbon-credits-in-sandbox-ui;there-are-6-listings-in-the-location-canterbury;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
   "line": 29,
-  "name": "Verify that the top search result location is Auckland",
+  "name": "There are 6 listings in the location Canterbury",
   "description": "",
-  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-top-search-result-location-is-auckland;;2",
+  "id": "searching-for-carbon-credits-in-sandbox-ui;there-are-6-listings-in-the-location-canterbury;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -495,7 +497,7 @@ formatter.step({
 });
 formatter.step({
   "line": 22,
-  "name": "I search for \"Carbon credits\"",
+  "name": "I search for \"Wine\"",
   "matchedColumns": [
     0
   ],
@@ -503,14 +505,17 @@ formatter.step({
 });
 formatter.step({
   "line": 23,
-  "name": "I view the search results as a list",
+  "name": "I choose the location \"Canterbury\"",
+  "matchedColumns": [
+    1
+  ],
   "keyword": "And "
 });
 formatter.step({
   "line": 24,
-  "name": "The location of the top search result is \"Auckland\"",
+  "name": "There is \"6\" search results",
   "matchedColumns": [
-    1
+    2
   ],
   "keyword": "Then "
 });
@@ -518,47 +523,53 @@ formatter.match({
   "location": "MyUiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 4416584505,
+  "duration": 4857063320,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Carbon credits",
+      "val": "Wine",
       "offset": 14
     }
   ],
   "location": "MyUiStepdefs.iSearchFor(String)"
 });
 formatter.result({
-  "duration": 3124102017,
-  "status": "passed"
-});
-formatter.match({
-  "location": "MyUiStepdefs.iViewTheSearchResultsAsAList()"
-});
-formatter.result({
-  "duration": 2115373814,
+  "duration": 3459358482,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Auckland",
-      "offset": 42
+      "val": "Canterbury",
+      "offset": 23
     }
   ],
-  "location": "MyUiStepdefs.theLocationOfTheTopSearchResultIs(String)"
+  "location": "MyUiStepdefs.iChooseTheLocation(String)"
 });
 formatter.result({
-  "duration": 3240700908,
+  "duration": 2016646462,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "6",
+      "offset": 10
+    }
+  ],
+  "location": "MyUiStepdefs.thereIsSearchResults(String)"
+});
+formatter.result({
+  "duration": 31206897,
   "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 32,
-  "name": "Verify that the title on the auction page is \"Carbon credits - zero flatulence\"",
+  "name": "Verify that the title on the auction page is \"Devil\u0027s Corkscrew\"",
   "description": "",
-  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-title-on-the-auction-page-is-\"carbon-credits---zero-flatulence\"",
+  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-title-on-the-auction-page-is-\"devil\u0027s-corkscrew\"",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
@@ -580,44 +591,51 @@ formatter.step({
 });
 formatter.step({
   "line": 35,
-  "name": "I click on the first result",
+  "name": "I choose the location \"\u003clocation\u003e\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 36,
+  "name": "I click on the first result",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 37,
   "name": "The title of the auction page is \"\u003ctitleText\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 38,
+  "line": 39,
   "name": "",
   "description": "",
-  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-title-on-the-auction-page-is-\"carbon-credits---zero-flatulence\";",
+  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-title-on-the-auction-page-is-\"devil\u0027s-corkscrew\";",
   "rows": [
     {
       "cells": [
         "searchText",
+        "location",
         "titleText"
       ],
-      "line": 40,
-      "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-title-on-the-auction-page-is-\"carbon-credits---zero-flatulence\";;1"
+      "line": 41,
+      "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-title-on-the-auction-page-is-\"devil\u0027s-corkscrew\";;1"
     },
     {
       "cells": [
-        "Carbon credits",
-        "Carbon Credit - zero flatulence"
+        "Wine",
+        "Canterbury",
+        "A Big Little House"
       ],
-      "line": 41,
-      "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-title-on-the-auction-page-is-\"carbon-credits---zero-flatulence\";;2"
+      "line": 42,
+      "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-title-on-the-auction-page-is-\"devil\u0027s-corkscrew\";;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 41,
-  "name": "Verify that the title on the auction page is \"Carbon credits - zero flatulence\"",
+  "line": 42,
+  "name": "Verify that the title on the auction page is \"Devil\u0027s Corkscrew\"",
   "description": "",
-  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-title-on-the-auction-page-is-\"carbon-credits---zero-flatulence\";;2",
+  "id": "searching-for-carbon-credits-in-sandbox-ui;verify-that-the-title-on-the-auction-page-is-\"devil\u0027s-corkscrew\";;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -634,7 +652,7 @@ formatter.step({
 });
 formatter.step({
   "line": 34,
-  "name": "I search for \"Carbon credits\"",
+  "name": "I search for \"Wine\"",
   "matchedColumns": [
     0
   ],
@@ -642,14 +660,22 @@ formatter.step({
 });
 formatter.step({
   "line": 35,
-  "name": "I click on the first result",
+  "name": "I choose the location \"Canterbury\"",
+  "matchedColumns": [
+    1
+  ],
   "keyword": "And "
 });
 formatter.step({
   "line": 36,
-  "name": "The title of the auction page is \"Carbon Credit - zero flatulence\"",
+  "name": "I click on the first result",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 37,
+  "name": "The title of the auction page is \"A Big Little House\"",
   "matchedColumns": [
-    1
+    2
   ],
   "keyword": "Then "
 });
@@ -657,40 +683,53 @@ formatter.match({
   "location": "MyUiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 5074373952,
+  "duration": 5348427615,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Carbon credits",
+      "val": "Wine",
       "offset": 14
     }
   ],
   "location": "MyUiStepdefs.iSearchFor(String)"
 });
 formatter.result({
-  "duration": 3429264638,
+  "duration": 5798342269,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Canterbury",
+      "offset": 23
+    }
+  ],
+  "location": "MyUiStepdefs.iChooseTheLocation(String)"
+});
+formatter.result({
+  "duration": 2191286433,
   "status": "passed"
 });
 formatter.match({
   "location": "MyUiStepdefs.iClickOnTheFirstResult()"
 });
 formatter.result({
-  "duration": 4673769659,
+  "duration": 5302328322,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Carbon Credit - zero flatulence",
+      "val": "A Big Little House",
       "offset": 34
     }
   ],
   "location": "MyUiStepdefs.theTitleOfTheAuctionPageIs(String)"
 });
 formatter.result({
-  "duration": 29815125,
+  "duration": 34434910,
   "status": "passed"
 });
 });

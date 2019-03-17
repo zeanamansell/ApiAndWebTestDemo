@@ -1,6 +1,5 @@
 package stepDefinitions;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -51,25 +50,11 @@ public class MyUiStepdefs {
         assertEquals(numSearchResults, totalNumResults);
     }
 
-    @And("^I view the search results as a list$")
-    public void iViewTheSearchResultsAsAList() throws InterruptedException {
-
-        resultsPage.viewAsList();
-        Thread.sleep(2000);
-    }
-
-    @Then("^The location of the top search result is \"([^\"]*)\"$")
-    public void theLocationOfTheTopSearchResultIs(String location) {
-
-        String topListingLocation = resultsPage.getTopOfListLocation();
-        assertEquals(location, topListingLocation);
-
-    }
 
     @And("^I click on the first result$")
     public void iClickOnTheFirstResult() {
 
-        auctionPage = resultsPage.goToAuctionPage();
+        auctionPage = resultsPage.selectFirstResult();
     }
 
     @Then("^The title of the auction page is \"([^\"]*)\"$")
@@ -79,4 +64,9 @@ public class MyUiStepdefs {
         assertEquals(titleText, pageTitle);
     }
 
+    @And("^I choose the location \"([^\"]*)\"$")
+    public void iChooseTheLocation(String location) {
+
+        resultsPage.sortByLocation(location);
+    }
 }

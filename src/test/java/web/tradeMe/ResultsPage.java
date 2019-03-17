@@ -5,7 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
 
 public class ResultsPage {
 
@@ -29,15 +32,17 @@ public class ResultsPage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("headerColumnGalleryViewText")));
     }
 
-    public String getTopOfListLocation() {
+    public AuctionPage selectFirstResult() {
 
-        return driver.findElement(By.cssSelector("#mainContent > div.supergrid-overlord > div > a > div > div.location-wrapper > div.location-info > div.location")).getText();
+        List<WebElement> resultsList = driver.findElements(By.className("title"));
+        resultsList.get(0).click();
+        return PageFactory.initElements(this.driver, AuctionPage.class);
     }
 
-    public AuctionPage goToAuctionPage() {
-        WebElement topResult = driver.findElement(By.cssSelector("#mainContent > div.supergrid-overlord > div > a > div > div.image"));
-        topResult.click();
-        return PageFactory.initElements(this.driver, AuctionPage.class);
+    public void sortByLocation(String location) {
+        Select select = new Select(driver.findElement(By.id("LocationFilter_regionSelect")));
+        select.selectByVisibleText(location);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("totalCount")));
     }
 
 }

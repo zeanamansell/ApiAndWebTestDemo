@@ -17,6 +17,6 @@ public class AuctionPage {
     }
 
     public String getListingTitle() {
-        return driver.findElement(By.id("ListingTitle_title")).getText();
+        return driver.findElement(By.cssSelector("#TitleContrainer > div.property-title > h1")).getText();
     }
 }
