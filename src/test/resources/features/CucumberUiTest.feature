@@ -16,17 +16,17 @@ Scenario Outline: Verify that there is 1 search result when searching for "Carbo
     | searchText       | numSearchResults |
     | Carbon credits   | 1                |
 
-@tag5
-Scenario Outline: Verify that the top search result location is Auckland
-  Given The TradeMe Sandbox home page
-  When I search for "<searchText>"
-  And I view the search results as a list
-  Then The location of the top search result is "<location>"
-
-  Examples:
-
-    | searchText       | location  |
-    | Carbon credits   | Auckland       |
+#@tag5
+#Scenario Outline: Verify that the top search result location is Auckland
+#  Given The TradeMe Sandbox home page
+#  When I search for "<searchText>"
+#  And I view the search results as a list
+#  Then The location of the top search result is "<location>"
+#
+#  Examples:
+#
+#    | searchText       | location  |
+#    | Carbon credits   | Auckland       |
 
 @tag6
 Scenario Outline: Verify that the title on the auction page is "Carbon credits - zero flatulence"
