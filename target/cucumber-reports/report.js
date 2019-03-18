@@ -94,14 +94,14 @@ formatter.match({
   "location": "MyApiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 305175799,
+  "duration": 361323104,
   "status": "passed"
 });
 formatter.match({
   "location": "MyApiStepdefs.iSendAGETRequest()"
 });
 formatter.result({
-  "duration": 2884228067,
+  "duration": 6325302092,
   "status": "passed"
 });
 formatter.match({
@@ -114,7 +114,7 @@ formatter.match({
   "location": "MyApiStepdefs.iCanValidateThatTheNameIs(String)"
 });
 formatter.result({
-  "duration": 484598604,
+  "duration": 826139290,
   "status": "passed"
 });
 formatter.scenario({
@@ -150,21 +150,21 @@ formatter.match({
   "location": "MyApiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 38972,
+  "duration": 29141,
   "status": "passed"
 });
 formatter.match({
   "location": "MyApiStepdefs.iSendAGETRequest()"
 });
 formatter.result({
-  "duration": 223510841,
+  "duration": 201440633,
   "status": "passed"
 });
 formatter.match({
   "location": "MyApiStepdefs.iCanValidateThatCanRelistIsTrue()"
 });
 formatter.result({
-  "duration": 29334303,
+  "duration": 31544482,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -258,14 +258,14 @@ formatter.match({
   "location": "MyApiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 45793,
+  "duration": 31968,
   "status": "passed"
 });
 formatter.match({
   "location": "MyApiStepdefs.iSendAGETRequest()"
 });
 formatter.result({
-  "duration": 201026688,
+  "duration": 206026282,
   "status": "passed"
 });
 formatter.match({
@@ -282,7 +282,7 @@ formatter.match({
   "location": "MyApiStepdefs.iCanValidateThatThePromotionsElementWithNameHasADescriptionThatContainsTheText(String,String)"
 });
 formatter.result({
-  "duration": 49294980,
+  "duration": 48726244,
   "status": "passed"
 });
 formatter.uri("CucumberUiTest.feature");
@@ -386,7 +386,7 @@ formatter.match({
   "location": "MyUiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 6791770519,
+  "duration": 5598082875,
   "status": "passed"
 });
 formatter.match({
@@ -399,7 +399,7 @@ formatter.match({
   "location": "MyUiStepdefs.iSearchFor(String)"
 });
 formatter.result({
-  "duration": 2889512280,
+  "duration": 2751808872,
   "status": "passed"
 });
 formatter.match({
@@ -412,7 +412,7 @@ formatter.match({
   "location": "MyUiStepdefs.thereIsSearchResults(String)"
 });
 formatter.result({
-  "duration": 30470915,
+  "duration": 36467708,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -523,7 +523,7 @@ formatter.match({
   "location": "MyUiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 4857063320,
+  "duration": 3667988246,
   "status": "passed"
 });
 formatter.match({
@@ -536,7 +536,7 @@ formatter.match({
   "location": "MyUiStepdefs.iSearchFor(String)"
 });
 formatter.result({
-  "duration": 3459358482,
+  "duration": 2687706176,
   "status": "passed"
 });
 formatter.match({
@@ -549,7 +549,7 @@ formatter.match({
   "location": "MyUiStepdefs.iChooseTheLocation(String)"
 });
 formatter.result({
-  "duration": 2016646462,
+  "duration": 1470320717,
   "status": "passed"
 });
 formatter.match({
@@ -562,7 +562,7 @@ formatter.match({
   "location": "MyUiStepdefs.thereIsSearchResults(String)"
 });
 formatter.result({
-  "duration": 31206897,
+  "duration": 35309843,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -683,7 +683,7 @@ formatter.match({
   "location": "MyUiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 5348427615,
+  "duration": 4606739399,
   "status": "passed"
 });
 formatter.match({
@@ -696,7 +696,7 @@ formatter.match({
   "location": "MyUiStepdefs.iSearchFor(String)"
 });
 formatter.result({
-  "duration": 5798342269,
+  "duration": 2296530288,
   "status": "passed"
 });
 formatter.match({
@@ -709,14 +709,14 @@ formatter.match({
   "location": "MyUiStepdefs.iChooseTheLocation(String)"
 });
 formatter.result({
-  "duration": 2191286433,
+  "duration": 1726570746,
   "status": "passed"
 });
 formatter.match({
   "location": "MyUiStepdefs.iClickOnTheFirstResult()"
 });
 formatter.result({
-  "duration": 5302328322,
+  "duration": 4888476816,
   "status": "passed"
 });
 formatter.match({
@@ -729,7 +729,7 @@ formatter.match({
   "location": "MyUiStepdefs.theTitleOfTheAuctionPageIs(String)"
 });
 formatter.result({
-  "duration": 34434910,
+  "duration": 38856480,
   "status": "passed"
 });
 });

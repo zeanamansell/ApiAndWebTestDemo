@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="31f22718-6610-40f6-b19f-9f0879f81596" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/MyUiStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/MyUiStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/tradeMe/AuctionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/tradeMe/AuctionPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/tradeMe/ResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/tradeMe/ResultsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CucumberUiTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CucumberUiTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-testRunner.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-testRunner.TestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testRunner.TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testRunner.TestRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+            <state relative-caret-position="645">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -60,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/MyUiStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
@@ -138,7 +132,6 @@
         <option value="$PROJECT_DIR$/src/test/java/web/tradeMe/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/CucumberApiTest.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/MyApiStepdefs.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Cucumber UiTest.feature" />
         <option value="$PROJECT_DIR$/src/test/java/MyUiStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/ChromeTest.java" />
@@ -146,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/CucumberUiTest.feature" />
         <option value="$PROJECT_DIR$/src/test/java/web/tradeMe/AuctionPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/MyUiStepdefs.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -235,7 +229,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552865413516" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552875669557" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -449,13 +443,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ApiStepDefs.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/stepDefintions/ApiStepDefs.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/MyStepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/MyApiStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -534,6 +521,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
     </entry>
