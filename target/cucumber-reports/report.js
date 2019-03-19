@@ -1,291 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("CucumberApiTest.feature");
-formatter.feature({
-  "line": 1,
-  "name": "Testing the API",
-  "description": "\nAcceptance Criteria:\n1. Name \u003d \"Carbon credits\"\n2. CanRelist \u003d true\n3. The Promotions element with Name \u003d \"Gallery\" has a Description that contains the text \"2x larger image\"",
-  "id": "testing-the-api",
-  "keyword": "Feature"
-});
-formatter.scenarioOutline({
-  "line": 9,
-  "name": "Verify that the Name element is equal to \"Carbon credits\"",
-  "description": "",
-  "id": "testing-the-api;verify-that-the-name-element-is-equal-to-\"carbon-credits\"",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 8,
-      "name": "@tag1"
-    }
-  ]
-});
-formatter.step({
-  "line": 10,
-  "name": "The API URI under test",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 11,
-  "name": "I send a GET request",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 12,
-  "name": "I can validate that the Name is \"\u003cexpectedName\u003e\"",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 14,
-  "name": "",
-  "description": "",
-  "id": "testing-the-api;verify-that-the-name-element-is-equal-to-\"carbon-credits\";",
-  "rows": [
-    {
-      "cells": [
-        "expectedName"
-      ],
-      "line": 16,
-      "id": "testing-the-api;verify-that-the-name-element-is-equal-to-\"carbon-credits\";;1"
-    },
-    {
-      "cells": [
-        "Carbon credits"
-      ],
-      "line": 17,
-      "id": "testing-the-api;verify-that-the-name-element-is-equal-to-\"carbon-credits\";;2"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.scenario({
-  "line": 17,
-  "name": "Verify that the Name element is equal to \"Carbon credits\"",
-  "description": "",
-  "id": "testing-the-api;verify-that-the-name-element-is-equal-to-\"carbon-credits\";;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 8,
-      "name": "@tag1"
-    }
-  ]
-});
-formatter.step({
-  "line": 10,
-  "name": "The API URI under test",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 11,
-  "name": "I send a GET request",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 12,
-  "name": "I can validate that the Name is \"Carbon credits\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "MyApiStepdefs.theAPIURIUnderTest()"
-});
-formatter.result({
-  "duration": 361323104,
-  "status": "passed"
-});
-formatter.match({
-  "location": "MyApiStepdefs.iSendAGETRequest()"
-});
-formatter.result({
-  "duration": 6325302092,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Carbon credits",
-      "offset": 33
-    }
-  ],
-  "location": "MyApiStepdefs.iCanValidateThatTheNameIs(String)"
-});
-formatter.result({
-  "duration": 826139290,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 21,
-  "name": "Verify that the CanRelist element is true",
-  "description": "",
-  "id": "testing-the-api;verify-that-the-canrelist-element-is-true",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 20,
-      "name": "@tag2"
-    }
-  ]
-});
-formatter.step({
-  "line": 22,
-  "name": "The API URI under test",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 23,
-  "name": "I send a GET request",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 24,
-  "name": "I can validate that CanRelist is true",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "MyApiStepdefs.theAPIURIUnderTest()"
-});
-formatter.result({
-  "duration": 29141,
-  "status": "passed"
-});
-formatter.match({
-  "location": "MyApiStepdefs.iSendAGETRequest()"
-});
-formatter.result({
-  "duration": 201440633,
-  "status": "passed"
-});
-formatter.match({
-  "location": "MyApiStepdefs.iCanValidateThatCanRelistIsTrue()"
-});
-formatter.result({
-  "duration": 31544482,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "line": 28,
-  "name": "Verify that the Promotions element with Name equal to \"Gallery\" has a Description that contains the text \"2x larger image\"",
-  "description": "",
-  "id": "testing-the-api;verify-that-the-promotions-element-with-name-equal-to-\"gallery\"-has-a-description-that-contains-the-text-\"2x-larger-image\"",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 27,
-      "name": "@tag3"
-    }
-  ]
-});
-formatter.step({
-  "line": 29,
-  "name": "The API URI under test",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 30,
-  "name": "I send a GET request",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 31,
-  "name": "I can validate that the Promotions element with Name \"\u003cpromotionName\u003e\" has a Description that contains the text \"\u003cpromotionDescription\u003e\"",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 33,
-  "name": "",
-  "description": "",
-  "id": "testing-the-api;verify-that-the-promotions-element-with-name-equal-to-\"gallery\"-has-a-description-that-contains-the-text-\"2x-larger-image\";",
-  "rows": [
-    {
-      "cells": [
-        "promotionName",
-        "promotionDescription"
-      ],
-      "line": 35,
-      "id": "testing-the-api;verify-that-the-promotions-element-with-name-equal-to-\"gallery\"-has-a-description-that-contains-the-text-\"2x-larger-image\";;1"
-    },
-    {
-      "cells": [
-        "Gallery",
-        "2x larger image"
-      ],
-      "line": 36,
-      "id": "testing-the-api;verify-that-the-promotions-element-with-name-equal-to-\"gallery\"-has-a-description-that-contains-the-text-\"2x-larger-image\";;2"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.scenario({
-  "line": 36,
-  "name": "Verify that the Promotions element with Name equal to \"Gallery\" has a Description that contains the text \"2x larger image\"",
-  "description": "",
-  "id": "testing-the-api;verify-that-the-promotions-element-with-name-equal-to-\"gallery\"-has-a-description-that-contains-the-text-\"2x-larger-image\";;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 27,
-      "name": "@tag3"
-    }
-  ]
-});
-formatter.step({
-  "line": 29,
-  "name": "The API URI under test",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 30,
-  "name": "I send a GET request",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 31,
-  "name": "I can validate that the Promotions element with Name \"Gallery\" has a Description that contains the text \"2x larger image\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "MyApiStepdefs.theAPIURIUnderTest()"
-});
-formatter.result({
-  "duration": 31968,
-  "status": "passed"
-});
-formatter.match({
-  "location": "MyApiStepdefs.iSendAGETRequest()"
-});
-formatter.result({
-  "duration": 206026282,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Gallery",
-      "offset": 54
-    },
-    {
-      "val": "2x larger image",
-      "offset": 105
-    }
-  ],
-  "location": "MyApiStepdefs.iCanValidateThatThePromotionsElementWithNameHasADescriptionThatContainsTheText(String,String)"
-});
-formatter.result({
-  "duration": 48726244,
-  "status": "passed"
-});
-formatter.uri("CucumberUiTest.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/CucumberUiTest.feature");
 formatter.feature({
   "line": 1,
   "name": "Searching for carbon credits in sandbox ui",
@@ -386,7 +99,7 @@ formatter.match({
   "location": "MyUiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 5598082875,
+  "duration": 6603685055,
   "status": "passed"
 });
 formatter.match({
@@ -399,7 +112,7 @@ formatter.match({
   "location": "MyUiStepdefs.iSearchFor(String)"
 });
 formatter.result({
-  "duration": 2751808872,
+  "duration": 3763493335,
   "status": "passed"
 });
 formatter.match({
@@ -412,7 +125,7 @@ formatter.match({
   "location": "MyUiStepdefs.thereIsSearchResults(String)"
 });
 formatter.result({
-  "duration": 36467708,
+  "duration": 44175593,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -523,7 +236,7 @@ formatter.match({
   "location": "MyUiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 3667988246,
+  "duration": 4460625786,
   "status": "passed"
 });
 formatter.match({
@@ -536,7 +249,7 @@ formatter.match({
   "location": "MyUiStepdefs.iSearchFor(String)"
 });
 formatter.result({
-  "duration": 2687706176,
+  "duration": 4204799509,
   "status": "passed"
 });
 formatter.match({
@@ -549,7 +262,7 @@ formatter.match({
   "location": "MyUiStepdefs.iChooseTheLocation(String)"
 });
 formatter.result({
-  "duration": 1470320717,
+  "duration": 753558356,
   "status": "passed"
 });
 formatter.match({
@@ -562,7 +275,7 @@ formatter.match({
   "location": "MyUiStepdefs.thereIsSearchResults(String)"
 });
 formatter.result({
-  "duration": 35309843,
+  "duration": 32775760,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -683,7 +396,7 @@ formatter.match({
   "location": "MyUiStepdefs.theAPIURIUnderTest()"
 });
 formatter.result({
-  "duration": 4606739399,
+  "duration": 4348438880,
   "status": "passed"
 });
 formatter.match({
@@ -696,7 +409,7 @@ formatter.match({
   "location": "MyUiStepdefs.iSearchFor(String)"
 });
 formatter.result({
-  "duration": 2296530288,
+  "duration": 1618206113,
   "status": "passed"
 });
 formatter.match({
@@ -709,14 +422,14 @@ formatter.match({
   "location": "MyUiStepdefs.iChooseTheLocation(String)"
 });
 formatter.result({
-  "duration": 1726570746,
+  "duration": 797526787,
   "status": "passed"
 });
 formatter.match({
   "location": "MyUiStepdefs.iClickOnTheFirstResult()"
 });
 formatter.result({
-  "duration": 4888476816,
+  "duration": 2565088625,
   "status": "passed"
 });
 formatter.match({
@@ -729,7 +442,7 @@ formatter.match({
   "location": "MyUiStepdefs.theTitleOfTheAuctionPageIs(String)"
 });
 formatter.result({
-  "duration": 38856480,
+  "duration": 95730462,
   "status": "passed"
 });
 });

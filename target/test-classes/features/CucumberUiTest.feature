@@ -15,6 +15,7 @@ Scenario Outline: Verify that there is 114 search result when searching for "Win
 
     | searchText       | numSearchResults |
     | Wine             | 114              |
+    | Pen              | 6                |
 
 @tag5
 Scenario Outline: There are 6 listings in the location Canterbury
