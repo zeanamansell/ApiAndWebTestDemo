@@ -28,6 +28,7 @@ Scenario Outline: There are 6 listings in the location Canterbury
 
     | searchText | location    |  numSearchResults |
     | Wine       | Canterbury  | 6                 |
+    | Pen        | Auckland    | 2                 |
 
 @tag6
 Scenario Outline: Verify that the title on the auction page is "Devil's Corkscrew"

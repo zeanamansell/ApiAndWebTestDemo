@@ -1,12 +1,12 @@
 Feature: Searching for carbon credits in sandbox ui
 
   Acceptance Criteria:
-  1. There is 113 search result when "Wine" is searched for
+  1. There is 114 search result when "Wine" is searched for
   2. There are 6 listings in the location Canterbury
   3. The title on the auction page of the first search result in canterbury is "Devil's Corkscrew"
 
 @tag4
-Scenario Outline: Verify that there is 114 search result when searching for "Wine"
+Scenario Outline: Verify the number of search results
   Given The TradeMe Sandbox home page
   When I search for "<searchText>"
   Then There is "<numSearchResults>" search results
@@ -28,6 +28,7 @@ Scenario Outline: There are 6 listings in the location Canterbury
 
     | searchText | location    |  numSearchResults |
     | Wine       | Canterbury  | 6                 |
+    | Pen        | Auckland    | 2                 |
 
 @tag6
 Scenario Outline: Verify that the title on the auction page is "Devil's Corkscrew"
