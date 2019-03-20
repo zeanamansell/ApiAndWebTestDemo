@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31f22718-6610-40f6-b19f-9f0879f81596" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CucumberUiTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CucumberUiTest.feature" afterDir="false" />
-    </list>
+    <list default="true" id="31f22718-6610-40f6-b19f-9f0879f81596" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -228,7 +226,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553053194294" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553053314872" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -374,9 +372,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Verify_that_the_top_search_result_location_is_Auckland - 2019.03.18 at 09h 46m 14s.xml">
-      <configuration name="Scenario: Verify that the top search result location is Auckland" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Verify_that_the_top_search_result_location_is_Auckland - 2019.03.18 at 09h 49m 31s.xml">
       <configuration name="Scenario: Verify that the top search result location is Auckland" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -403,6 +398,9 @@
     </history-entry>
     <history-entry file="Scenario__Verify_that_there_is_114_search_result_when_searching_for__Wine_ - 2019.03.20 at 11h 05m 49s.xml">
       <configuration name="Scenario: Verify that there is 114 search result when searching for &quot;Wine&quot;" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__There_are_6_listings_in_the_location_Canterbury - 2019.03.20 at 16h 40m 29s.xml">
+      <configuration name="Scenario: There are 6 listings in the location Canterbury" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
